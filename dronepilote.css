@@ -1,0 +1,54 @@
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #333;     /* Ajout de la couleur d'arrière-plan */
+}
+.menu li {
+    list-style-type: none ;     /* Suppression des puces */
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+}
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #333;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center     /* Alignements des liens dans le menu */
+}
+
+body { 
+    margin:0;
+    padding: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*Bas de pages*/
+
+footer.FP{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: solid ;
+    border-color: #333;
+    background-color: #333;
+    padding: 3% 3%;
+    font-family: Arial;
+}
+.menu-footer li {
+    list-style-type: none;
+}
+/*-------------------------------------------------------------------------*/
